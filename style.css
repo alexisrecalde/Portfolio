@@ -121,6 +121,28 @@ img {
   font-size: 6vh;
 }
 
+.home-texto {
+  margin: 2rem auto;
+  text-align: center;
+  white-space: nowrap;
+  border-right: 4px;
+  width: 18ch;
+  animation: typing 2s steps(18), blink 2s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
 /********************** ACERCA *************************************** */
 
 .acerca-container {
